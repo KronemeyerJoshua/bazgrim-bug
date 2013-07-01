@@ -1,0 +1,4 @@
+--Quest Fix 'A Means to an End'
+INSERT INTO event_scripts (id,delay,command,datalong,datalong2,dataint,x,y,z,o) VALUES
+(17868,0,10,27238,300000,0,2796.436035,-203.014954,139.161102,5.629544);
+UPDATE `creature_template` SET `faction_A`=67,`faction_H`=67 WHERE `entry`=27238;
